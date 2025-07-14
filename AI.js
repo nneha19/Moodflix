@@ -24,7 +24,7 @@ Return exactly 6 suggestions. Use blank lines between each.`;
         headers: {
           Authorization: `Bearer ${import.meta.env.VITE_OPENROUTER_API_KEY}`,
           "Content-Type": "application/json",
-          "HTTP-Referer": "http://localhost:5173", // 🔥 update for production
+          "HTTP-Referer": "https://moodflixx.vercel.app/",
           "X-Title": "MoodFlix",
         },
         body: JSON.stringify({
